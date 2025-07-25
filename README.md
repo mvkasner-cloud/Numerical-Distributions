@@ -6,7 +6,6 @@ This repository contains three implementations of the same data analysis task us
 What Each Solution Does:
 
 - Groups salaries using the formula: FLOOR((salary - 10) / 20) * 20 + 10
-This assigns each salary to a range like 70–90, 90–110, etc.
 
 - Counts how many salaries fall into each range
 
