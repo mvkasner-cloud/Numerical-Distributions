@@ -6,7 +6,7 @@ Numerical frequency distribution with an interval size of 20 and calculate the c
 
 - **Excel** (using **Pivot Table** and formulas compatible with both **Excel 365** and older versions)
 - **SQL** (**SQL Server Management Studio**)
-- **Python** (**pandas** in **VS Code** using **Jupyter Notebook**)
+- **Python** (**pandas**, **numpy**, and **matplotlib** in **VS Code** using **Jupyter Notebook**)
  
 
 ### What Each Solution Does:
