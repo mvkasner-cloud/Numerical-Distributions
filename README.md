@@ -1,25 +1,44 @@
-# Numerical-Distributions
-Numerical frequency distribution with an interval size of 20 and calculate the cumulative relative frequency.
+# **Numerical-Distributions**
 
+This project demonstrates how to create a **numerical frequency distribution** with an **interval size of 20** and calculate **cumulative relative frequencies (%)** using **Excel, SQL, and Python**.
 
-## This repository contains three implementations of the same data analysis task using different tools:
+---
 
-- **Excel** (using **Pivot Table** and formulas compatible with both **Excel 365** and older versions)
-- **SQL** (**SQL Server Management Studio**)
-- **Python** (**pandas**, **numpy**, and **matplotlib** in **VS Code** using **Jupyter Notebook**)
- 
+## **Tools and Skills**
 
-### What Each Solution Does:
+* **Excel:** Using **Pivot Table** and formulas (compatible with both **Excel 365** and older versions).  
+* **SQL:** Queries in **SQL Server Management Studio (SSMS)** with **`GROUP BY`** and **`SUM() OVER`** for cumulative calculations.  
+* **Python:** Data analysis and visualization with **`pandas`**, **`numpy`**, **`matplotlib`** in **VS Code** using **Jupyter Notebook**.  
+  Interval logic replicates SQL's `FLOOR` using **`//`** in Python.
 
-- Groups salaries using the formula: FLOOR((salary - 10) / 20) * 20 + 10. This assigns each salary to a range like 70–90, 90–110, etc.
+---
 
-- Counts how many salaries fall into each range
+## **Key Features**
 
-- Calculates relative frequency and the cumulative relative frequency (%)
+* **Splits data into intervals** (bins) with a step of 20 (e.g., **70–90, 90–110**).  
+* **Counts frequency** of values in each range.  
+* **Calculates relative and cumulative relative frequencies (%).**  
+* **Generates a summary table** and **plots a histogram** (Python).
 
-- Outputs a summary table with all the results
+---
 
-- Plots a histogram (in Python) to visualize the salary distribution
+## **Example of Summary Table**
+
+| **Annual Salary Range** | **Frequency** | **RelFreq, %** | **CumRelFreq, %** |
+|-------------------------|---------------|----------------|-------------------|
+| 70-90                   | 9             | 16.98          | 16.98             |
+| 90-110                  | 22            | 41.51          | 58.49             |
+| 110-130                 | 11            | 20.75          | 79.25             |
+| ...                     | ...           | ...            | ...               |
+
+---
+
+## **Python Visualization**
+
+The Python script generates a **histogram with visible bar borders**, and **relative frequency percentages** are displayed above each bar.
+
+![Histogram of Salary Distribution](histogram.png)
+
 
 
 
