@@ -15,11 +15,11 @@ Numerical frequency distribution with an interval size of 20 and calculate the c
 
 - Counts how many salaries fall into each range
 
-- Calculates the cumulative relative frequency as a percentage
+- Calculates relative frequency and the cumulative relative frequency (%)
 
-- Outputs a summary table
+- Outputs a summary table with all the results
 
-- Additionally, a histogram was plotted in Python to visualize the distribution.
+- Plots a histogram (in Python) to visualize the salary distribution
 
 
 
