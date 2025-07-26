@@ -37,7 +37,7 @@ This project demonstrates how to create a **numerical frequency distribution** w
 
 The Python script generates a **histogram with visible bar borders**, and **relative frequency percentages** are displayed above each bar.
 
-![Histogram of Salary Distribution](histogram.png)
+![Histogram of Salary Distribution](histogram.png) 
 
 
 
