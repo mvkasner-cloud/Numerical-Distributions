@@ -1,6 +1,6 @@
 # **Numerical-Distributions**
 
-This project demonstrates how to create a **numerical frequency distribution** with an **interval size of 20** and calculate **relative** and **cumulative relative frequencies (%)** using **Excel, SQL, and Python**.
+This learning project demonstrates how to create a **numerical frequency distribution** with an **interval size of 20** and calculate **relative** and **cumulative relative frequencies (%)** using **Excel, SQL, and Python**.
 
 ---
 
