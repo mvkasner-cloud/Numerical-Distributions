@@ -4,6 +4,13 @@ This learning project demonstrates how to create a **numerical frequency distrib
 
 ---
 
+## **Data Source & Acknowledgment**
+This project is inspired by the course **"Microsoft Excel: Essential Statistics for Data Analysis"** by **Maven Analytics**.
+While the initial data structure and analysis questions are based on course materials, all SQL and Python code, additional transformations, visualizations, and analytical steps were independently developed.
+The project demonstrates how the same dataset can be analyzed using more advanced tools beyond Excel.
+
+---
+
 ## **Tools and Skills**
 
 * **Excel:** Using **Pivot Table** and formulas (compatible with both **Excel 365** and older versions).  
